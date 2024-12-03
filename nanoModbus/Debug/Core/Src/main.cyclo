@@ -1,0 +1,9 @@
+../Core/Src/main.c:67:6:RS485_SetTransmitMode	1
+../Core/Src/main.c:71:6:RS485_SetReceiveMode	1
+../Core/Src/main.c:74:9:uart_read	2
+../Core/Src/main.c:83:9:uart_write	2
+../Core/Src/main.c:102:5:main	2
+../Core/Src/main.c:224:6:SystemClock_Config	4
+../Core/Src/main.c:266:13:MX_USART1_UART_Init	2
+../Core/Src/main.c:299:13:MX_GPIO_Init	1
+../Core/Src/main.c:345:6:Error_Handler	1
