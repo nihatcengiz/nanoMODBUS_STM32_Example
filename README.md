@@ -25,7 +25,7 @@ STM32 modbus example with [nanoModbus Library](https://github.com/debevv/nanoMOD
 	nmbs_set_destination_rtu_address(&nmbs, 1);
 ```
 ## Transport read/write
--> Define the pins for the receiver/transmitter modes of the RS485 module.
+-> Define the pin (RS485_CTRL) for the receiver/transmitter modes of the RS485 module.
 ```C
 void RS485_SetTransmitMode(void) {
 	HAL_GPIO_WritePin(RS485_CTRL_GPIO_Port, RS485_CTRL_Pin, GPIO_PIN_SET); // DE ve RE pin set.
